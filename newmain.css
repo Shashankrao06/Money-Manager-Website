@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("plain.jpg");
+    width: 100%;
+    height: 100%;
+}
+.main{
+    margin-top: 0px;
+
+}
+.left{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("plain1.jpg") ;
+    height: 720px;
+    width: 50%;
+    /* border: 3px solid rgb(148, 148, 204); */
+    float: left;
+    /* margin-left: 90px; */
+}
+.right{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("plain2.jpg") ;
+    height: 720px;
+    width: 50%;
+    /* border: 3px solid rgb(122, 122, 177); */
+    float: right;
+    /* margin-right: 90px; */
+}
+button{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 30px;
+    
+}
+ 
+.right button{
+    /* margin: 70px; */
+    margin-top: 19px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-left: 330px;
+    border-radius: 30px;
+}
+.left button {
+    /* margin: 70px; */
+    text-decoration: none;
+    margin-top: 19px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-left: 310px;
+    border-radius: 60px;
+
+    
+}
+
+p{
+    color: white;
+}
+
+.left h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 260px;
+}
+.right h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 205px;
+}
+.left h4{
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right h4{
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+#logout {
+    margin-top: 10px;
+    margin-left: 660px;
+    text-decoration: none;
+    padding: 8px;
+    border: 3px solid rgb(198, 191, 191);
+    background-color: transparent;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: #fff;
+}
+

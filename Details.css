@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("plain2.jpg");
+    align-items: center;
+    
+
+}
+.table{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+h1{
+    text-align: center;
+    color:black;
+    font-weight: 600;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    border: 2px solid black;
+    color:#fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 600px;
+}
+.home{
+    margin-top: 100px;
+    margin-left: 730px;
+    
+}
